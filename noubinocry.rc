@@ -1,0 +1,31 @@
+#include <winver.h>
+#include "version.h"
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION NUNC_VERSION_NUM
+ PRODUCTVERSION NUNC_VERSION_NUM
+ FILEFLAGSMASK VS_FFI_FILEFLAGSMASK
+ FILEFLAGS 0
+ FILEOS VOS_NT_WINDOWS32
+ FILETYPE VFT_DLL
+ FILESUBTYPE VFT2_UNKNOWN
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName", "OutlawRGB"
+            VALUE "FileDescription", "NoUbiNoCry - Far Cry 3: Blood Dragon offline fix (dinput8 proxy)"
+            VALUE "FileVersion", NUNC_VERSION_STR
+            VALUE "InternalName", "NoUbiNoCry"
+            VALUE "LegalCopyright", "Copyright (c) 2026 OutlawRGB. MIT License."
+            VALUE "OriginalFilename", "dinput8.dll"
+            VALUE "ProductName", "NoUbiNoCry"
+            VALUE "ProductVersion", NUNC_VERSION_STR
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END

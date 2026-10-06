@@ -1,0 +1,22 @@
+# Build output (build.cmd)
+*.obj
+*.res
+*.exp
+*.lib
+*.pdb
+*.ilk
+*.dll
+*.exe
+
+# Release packages (build.cmd package)
+dist/
+
+# Runtime log written next to the DLL
+NoUbiNoCry.log
+
+# Editors and OS clutter
+.vs/
+.vscode/
+*.user
+Thumbs.db
+Desktop.ini
